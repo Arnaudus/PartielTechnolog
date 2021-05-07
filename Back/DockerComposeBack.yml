@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+    front:
+        image:nginx:latest
+    port:
+        - "80:80"
+    volumes:
+        - /Users/Arnaudus/Desktop/coursM1/TechnoLog/partielTest/front:/usr/share/nginx/html
+    back:
+        build:
+            context: dev/back/
+            dockerfile: Dockerfile
+            ports:
+                - "3001:3001"
+            volumes:
+                -/Users/Arnaudus/Desktop/coursM1/TechnoLog/partielTest/front:/usr/app
+

@@ -1,0 +1,86 @@
+body{
+    padding:0;
+    margin:0;
+    background-color: white;
+}
+
+#ash {
+    width: 100%;
+ }
+  
+#ash div {
+    
+    width: 49%;
+    display: inline-block;
+}
+  
+#right {
+    text-align: right;
+    
+}
+
+#blockCommande{
+    text-align: center;
+}
+#blockCommande h3{
+    width: auto;
+    background-color: lightgreen;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header{
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-top: 0ch;
+    border-left: 0ch;
+    border-right: 0ch;
+    border-color: lightblue;
+    background-color: white;
+    border-style: solid;
+}
+
+  
+
+
+footer input{
+    text-align: right;
+    width: 100%;
+    height: 35px;
+    font-size: 15px;
+
+    float : bottom;
+
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+}
+
+#tchat{
+ width: 100%;
+ overflow: auto;
+}
+
+.UserMsg {
+    background-color:lightblue;
+    text-align: right;
+    width: 20%;
+    float: right;
+    font-size: 35px;
+    margin-top: 10%;
+    
+}
+
+.BotMsg{
+    background-color: pink;
+    text-align: left;
+    width: 20%;
+    font-size: 35px;
+    margin-top: 20%;
+}

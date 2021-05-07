@@ -1,0 +1,23 @@
+{
+  "name": "partiel-pizzatime-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "PizzaTime.js",
+  "scripts": {
+    "start": "nodemon PizzaTime.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Arnaudus/PartielTechnolog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arnaudus/PartielTechnolog/issues"
+  },
+  "homepage": "https://github.com/Arnaudus/PartielTechnolog#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
